@@ -1,6 +1,6 @@
 # HookRegistry
 
-HookRegistry is an open-source platform that unites curated hooks for the Uniswap V4 ecosystem, enabling developers, companies, and products to share and manage custom hooks efficiently. This repository serves as the primary location for HookList JSON schemas, community-contributed HookLists, and version control of HookLists curated by trusted entities.
+HookRegistry is an open-source platform that allows for the creation of curated hook lists for the Uniswap V4 ecosystem. Developers, companies, and products can share and manage custom lists of hooks efficiently and more securely. This repository serves as the primary location for community-contributed HookLists.
 
 ## 📖 Overview
 
@@ -26,7 +26,7 @@ HookRegistry welcomes contributions of new HookLists! Follow the steps below to 
 Go to the hookregistry.com and follow the instructions.
 
 ### If you want to create it manually:
- 
+
 Schema Reference:
 
 1. Check the HookList JSON Schema here to understand the required structure and validation rules and create your own HookList JSON;
@@ -36,8 +36,8 @@ Schema Reference:
 5. Include the details and justification for the HookList in the issue description by the following template:
 
 ```
-List URL: 
-List Name: 
+List URL:
+List Name:
 Link to the official homepage of the list manager:
 ```
 
@@ -55,24 +55,26 @@ Below is an example structure of a HookList JSON file:
 
 ```json
 {
-    "name": "Uniswap V4",
-    "timestamp":"2022-04-06T22:19:09+00:00",
-    "version":{"major":145,"minor":0,"patch":0},
-    "keywords":["Uniswap V4","default","list"],
-    "description": "A very awesome hook list, hell yeah",
-    "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png",
-    "chains": {
-      "1": [{
-         "address": "0x7174486cDD1E9cBecd977134A10d55f357A50Ac0",
-         "name": "Hook X",
-         "repository": "Repository for Hook X",
-         "logoURI": "https://ethereum-optimism.github.io/data/UNI/Hook.png",
-         "description": "A very awesome hook, hell yeah",
-         "audit": "https://audit/link",
-         "version":{"major":145,"minor":0,"patch":0}
-       }]
-    }
+  "name": "Uniswap V4",
+  "timestamp": "2022-04-06T22:19:09+00:00",
+  "version": { "major": 145, "minor": 0, "patch": 0 },
+  "keywords": ["Uniswap V4", "default", "list"],
+  "description": "A very awesome hook list, hell yeah",
+  "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png",
+  "chains": {
+    "1": [
+      {
+        "address": "0x7174486cDD1E9cBecd977134A10d55f357A50Ac0",
+        "name": "Hook X",
+        "repository": "Repository for Hook X",
+        "logoURI": "https://ethereum-optimism.github.io/data/UNI/Hook.png",
+        "description": "A very awesome hook, hell yeah",
+        "audit": "https://audit/link",
+        "version": { "major": 145, "minor": 0, "patch": 0 }
+      }
+    ]
+  }
 }
 ```
-For more details, see the full schema definition.
 
+For more details, see the full schema definition.
