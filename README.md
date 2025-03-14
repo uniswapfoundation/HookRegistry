@@ -104,7 +104,7 @@ For more details, see the full schema definition.
 
 # Hook Metadata Flow
 
-In addition to providing a structure for сategorizing hooks, HookRegistry indexes hooks that implement IHookMetadata to obtain hook information (metadata and completed audits). By implementing the IHookMetadata interface, developers and auditors ensure that each hook's essential details and audit information can be easily indexed and verified, fostering transparency and security across the entire Uniswap V4 ecosystem.
+In addition to providing a structure for сategorizing hooks, HookRegistry indexes hooks that implement IHookMetadata to obtain hook information (metadata and completed audits).
 
 ## 1. Required Metadata
 
