@@ -23,7 +23,7 @@
 
 # HookRegistry
 
-HookRegistry is an open-source platform that unites curated hooks for the Uniswap V4 ecosystem, enabling developers, companies, and products to share and manage custom hooks efficiently. This repository serves as the primary location for HookList JSON schemas, community-contributed HookLists, and version control of HookLists curated by trusted entities.
+HookRegistry is an open-source platform that allows for the creation of curated hook lists for the Uniswap V4 ecosystem. Developers, companies, and products can share and manage custom lists of hooks efficiently and more securely. This repository serves as the primary location for community-contributed HookLists.
 
 ## 📖 Overview
 
