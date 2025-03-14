@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 NOTE PLEASE UPDATE ALL THE FIELDS BELOW WITH THE CORRECT DATA
-AN EXAMPLE SUBMISSION MAY BE FOUND HERE - 
+AN EXAMPLE SUBMISSION MAY BE FOUND HERE - https://github.com/uniswapfoundation/HookRegistry/issues/4
 
 HookList Name:
 HookList URL (must be IPFS or ENS):
