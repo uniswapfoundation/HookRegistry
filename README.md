@@ -59,8 +59,8 @@ Schema Reference:
 5. Include the details and justification for the HookList in the issue description by the following template:
 
 ```
-List URL: 
 List Name: 
+List URL: 
 Link to the official homepage of the list manager:
 ```
 
